@@ -1,0 +1,34 @@
+body {
+	background-color: #C1C2AD;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+button {
+	background-color: #535E4B;
+	color: #C1C2AD;
+	font-size: 50px;
+  gap: 1rem;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
